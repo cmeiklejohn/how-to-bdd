@@ -1,7 +1,10 @@
-# How to BDD # 
+# How to BDD #
 
-## Using ##
+Presentation for Swipely on properly BDD'ing.
 
-    ```bundle install```
-    ```showoff serve```
-    Point your browser to http://localhost:9090
+## Setup ##
+
+    bundle install
+    showoff serve
+    
+Then Point your browser to http://localhost:9090
