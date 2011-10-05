@@ -1,10 +1,10 @@
 # How to BDD #
 
-Presentation for Swipely on properly BDD'ing.
+Presentation on doing proper behavior driven development.
 
 ## Setup ##
 
     bundle install
-    showoff serve
+    bundle exec showoff serve
     
-Then Point your browser to http://localhost:9090
+Then point your browser to http://localhost:9090.  Done!
