@@ -22,7 +22,10 @@
       end
 
       it "should know how to enqueue a harvester job" do 
-        Resque.should_receive(:enqueue).with(subject, 1).and_return(true)
+        Resque.
+          should_receive(:enqueue).
+          with(subject, 1).
+          and_return(true)
         subject.enqueue(riak_node)
       end
     end

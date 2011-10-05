@@ -8,15 +8,17 @@
         pending
       end
 
-      Then /^there should be a job to collect stats for the riak node with user "([^"]*)" 
-       and ip "([^"]*)" in cluster "([^"]*)"$/ do |user, ip_address, cluster_name|
+      Then /^there should be a job to collect stats for the riak node 
+        with user "([^"]*)" and ip "([^"]*)" in cluster "([^"]*)"$/ 
+          do |user, ip_address, cluster_name|
         pending
       end
 
 !SLIDE code
 
-      Given /^there is a job scheduled to collect stats for the riak node with user "([^"]*)" 
-       and ip "([^"]*)" in cluster "([^"]*)"$/ do |user, ip_address, cluster_name|
+      Given /^there is a job scheduled to collect stats for the riak node 
+        with user "([^"]*)" and ip "([^"]*)" in cluster "([^"]*)"$/ 
+          do |user, ip_address, cluster_name|
         pending
       end
 
@@ -24,7 +26,8 @@
         pending
       end
 
-      Then /^statistics should be gathered for the riak node with user "([^"]*)" 
-       and ip "([^"]*)" in cluster "([^"]*)"$/ do |user, ip_address, cluster_name|
+      Then /^statistics should be gathered for the riak node with 
+        user "([^"]*)" and ip "([^"]*)" in cluster "([^"]*)"$/ 
+          do |user, ip_address, cluster_name|
         pending
       end

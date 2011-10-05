@@ -11,8 +11,10 @@
       My nodes should have scheduled jobs created for them
 
       Background:
-        Given there is a riak cluster named "Test Cluster" that belongs to "user@domain.com"
-        And there is a riak node with user "riak" and ip "127.0.0.1" in cluster "Test Cluster"
+        Given there is a riak cluster named "Test Cluster" 
+         that belongs to "user@domain.com"
+        And there is a riak node with user "riak" 
+         and ip "127.0.0.1" in cluster "Test Cluster"
 
 !SLIDE code
 
